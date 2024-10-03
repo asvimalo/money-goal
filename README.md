@@ -1,6 +1,8 @@
 # Specification
 
-Pablo will write about it....
+Pablo will write about it.... mas tarde
+Vale?????
+a
 
 # Welcome to your Expo app 👋
 
