@@ -13,6 +13,7 @@ export default function HomeScreen() {
     >
       <Text></Text>
       <View style={{flexDirection: "row"}}>
+        {/* Navigation to come */}
         <Main></Main>
         <IncomeScreen></IncomeScreen>
         <OutcomeScreen></OutcomeScreen>

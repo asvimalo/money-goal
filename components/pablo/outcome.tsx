@@ -7,6 +7,7 @@ export default function OutcomeScreen() {
         flex: 1,
         justifyContent: "center",
         alignItems: "center",
+        
       }}
     >
       <Text>Outcomes</Text>

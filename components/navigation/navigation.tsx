@@ -1,16 +1,15 @@
 import { Text, View } from "react-native";
 
-export default function OutcomeScreen() {
+export default function NavigationScreen() {
   return (
     <View
       style={{
-        flex: 1,
         justifyContent: "center",
         alignItems: "center",
-        backgroundColor: "cyan"
+        
       }}
     >
-      <Text>Main</Text>
+      <Text>Navigation</Text>
     </View>
   );
 }
