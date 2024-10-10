@@ -1,3 +1,6 @@
+import IncomeScreen from "@/components/joel/income";
+import Main from "@/components/main/main";
+import OutcomeScreen from "@/components/pablo/outcome";
 import { Image, Text, View } from "react-native";
 
 export default function HomeScreen() {
@@ -5,11 +8,15 @@ export default function HomeScreen() {
     <View
       style={{
         flex: 1,
-        justifyContent: "center",
         alignItems: "center",
       }}
     >
-      <Text>Pablo, Joel & Andrés</Text>
+      <Text></Text>
+      <View style={{flexDirection: "row"}}>
+        <Main></Main>
+        <IncomeScreen></IncomeScreen>
+        <OutcomeScreen></OutcomeScreen>
+      </View>
     </View>
   );
 }
