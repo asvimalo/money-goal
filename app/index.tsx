@@ -1,6 +1,6 @@
 import { Image, Text, View } from "react-native";
 
-export default function Index() {
+export default function HomeScreen() {
   return (
     <View
       style={{
@@ -9,8 +9,7 @@ export default function Index() {
         alignItems: "center",
       }}
     >
-      <Image source={require('@/assets/images/react-logo.png')} style={{ alignSelf: 'center' }} />
-      <Text>Edit app/index.tsx to edit this screen.</Text>
+      <Text>Pablo, Joel & Andrés</Text>
     </View>
   );
 }
