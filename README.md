@@ -1,6 +1,7 @@
-## Money Goal ##
+# Money Goal 
 
-# Specification
+## Specification
+
 
 ## Get started
 
