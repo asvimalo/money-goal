@@ -1,14 +1,7 @@
-import IncomeScreen from "@/components/joel/income";
-import Main from "@/components/main/main";
-import OutcomeScreen from "@/components/pablo/outcome";
-import { Image, Text, View, StyleSheet } from "react-native";
-import { NavigationContainer } from '@react-navigation/native';
-import { Link } from "expo-router";
-
+import { Text, View, StyleSheet } from "react-native";
 
 export default function HomeScreen() {
   return (
-    
       <View
         style={styles.container}
       >
@@ -16,7 +9,6 @@ export default function HomeScreen() {
         <View style={styles.nav}>          
         </View>
       </View>
- 
   );
 }
 
